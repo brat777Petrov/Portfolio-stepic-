@@ -1,0 +1,59 @@
+main{
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
+#jumbotron {
+  padding-left: 2.5rem;
+}
+
+#jumbotron-title {
+  font-style: normal;
+  font-weight: 300;
+
+  font-size: 48px;
+  line-height: 56px;  
+}
+
+#jumbotron-btn {
+  letter-spacing: .03rem;
+}
+
+
+#card_content {
+  padding: 0;
+}
+
+.profile_card, .stats_card {
+   margin: 2rem 1rem;
+}
+
+#div_row {
+  padding: 0;
+}
+
+#footer {
+  padding: 0;
+  margin: 0;
+  padding: 1rem 3.4375rem;
+  margin-top: 4.5625rem ;
+}
+
+@media screen and (min-width: 321px) {
+#jumbotron-title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 84px;
+  }
+
+#container-row_card {
+    padding: 0 -1rem;
+    
+  }
+
+  .prof, .table {
+   margin-left: 3.4375rem;
+  }
+}
